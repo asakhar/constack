@@ -5,6 +5,7 @@ struct Node<T> {
     value: T,
 }
 
+#[derive(Debug)]
 pub struct ConStack<T> {
     top: AtomicPtr<Node<T>>,
 }
